@@ -2,7 +2,7 @@
 
 ### An application written in Vue.js in which you can create timers
 
-<img align="left" alt="timers" width="700" height="700" src="./src/assets/img/view.png" />
+<img align="left" alt="timers" width="700" height="400" src="./src/assets/img/view.png" />
 
 ## Project setup
 
