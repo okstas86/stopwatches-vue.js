@@ -1,26 +1,27 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <StopwatchDisplay></StopwatchDisplay>
+  <TestForm2></TestForm2>
 </template>
-
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import StopwatchDisplay from "./components/StopwatchDisplay.vue";
 
 export default {
-  name: 'App',
-  components: {
-    HelloWorld
-  }
-}
+  components: { StopwatchDisplay },
+};
 </script>
-
 <style>
+@font-face {
+  font-family: "Gotham Pro Black";
+  src: url("./assets/fonts/gothampro.ttf") format("truetype");
+}
+
+body {
+  font-family: "Gotham Pro Black", sans-serif;
+  background-color: #353638;
+}
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
 }
 </style>
